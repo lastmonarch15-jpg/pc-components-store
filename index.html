@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoreForge | PC Components Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">C</span>
+        Core<span>Forge</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Components</a>
+        <a href="products.html?category=GPU">Graphics Cards</a>
+        <a href="products.html?category=CPU">Processors</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="products.html" class="search-btn" aria-label="Search products">⌕</a>
+        <a href="cart.html" class="cart-btn">
+          🛒 <span>Cart</span>
+          <b id="cart-count">0</b>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">POWER YOUR NEXT BUILD</p>
+          <h1>Build Without<br><span>Limits.</span></h1>
+          <p class="hero-description">
+            Premium PC components for gamers, creators, and professionals.
+            Find the hardware that brings your ideas to life.
+          </p>
+          <div class="hero-buttons">
+            <a href="products.html" class="btn btn-primary">Shop Components →</a>
+            <a href="#categories" class="btn btn-outline">Explore Categories</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>500+</strong><small>Products</small></div>
+            <div><strong>24/7</strong><small>Support</small></div>
+            <div><strong>100%</strong><small>Genuine</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-glow"></div>
+          <div class="hero-chip">
+            <div class="chip-lines"></div>
+            <div class="chip-center">CORE<br><small>FORGE</small></div>
+            <span class="chip-label label-1">PERFORMANCE</span>
+            <span class="chip-label label-2">POWER</span>
+            <span class="chip-label label-3">PRECISION</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">BROWSE HARDWARE</p>
+            <h2>Shop by Category</h2>
+          </div>
+          <a href="products.html" class="view-all">View All →</a>
+        </div>
+
+        <div class="category-grid">
+          <a href="products.html?category=GPU" class="category-card">
+            <div class="category-icon">▰</div>
+            <h3>Graphics Cards</h3>
+            <p>GPU / Video Cards</p>
+            <span>Explore →</span>
+          </a>
+
+          <a href="products.html?category=CPU" class="category-card">
+            <div class="category-icon">▦</div>
+            <h3>Processors</h3>
+            <p>CPU / Desktop Chips</p>
+            <span>Explore →</span>
+          </a>
+
+          <a href="products.html?category=RAM" class="category-card">
+            <div class="category-icon">▤</div>
+            <h3>Memory</h3>
+            <p>RAM / DDR4 / DDR5</p>
+            <span>Explore →</span>
+          </a>
+
+          <a href="products.html?category=Storage" class="category-card">
+            <div class="category-icon">▥</div>
+            <h3>Storage</h3>
+            <p>SSD / HDD / NVMe</p>
+            <span>Explore →</span>
+          </a>
+
+          <a href="products.html?category=Motherboard" class="category-card">
+            <div class="category-icon">▩</div>
+            <h3>Motherboards</h3>
+            <p>ATX / Micro ATX</p>
+            <span>Explore →</span>
+          </a>
+
+          <a href="products.html?category=PSU" class="category-card">
+            <div class="category-icon">⚡</div>
+            <h3>Power Supplies</h3>
+            <p>PSU / Modular Power</p>
+            <span>Explore →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section products-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">TOP PICKS</p>
+            <h2>Featured Components</h2>
+          </div>
+          <a href="products.html" class="view-all">View All Products →</a>
+        </div>
+
+        <div class="product-grid" id="featured-products">
+          <!-- Products are loaded by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="container">
+      <div class="promo-banner">
+        <div>
+          <p class="eyebrow">LEVEL UP YOUR SETUP</p>
+          <h2>Performance Meets Precision.</h2>
+          <p>Discover components engineered for your next big build.</p>
+          <a href="products.html" class="btn btn-primary">Explore Products →</a>
+        </div>
+        <div class="promo-symbol">◈</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo">
+          <span class="logo-icon">C</span>
+          Core<span>Forge</span>
+        </a>
+        <p>Your trusted destination for premium PC components and hardware.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="products.html">All Components</a>
+        <a href="products.html?category=GPU">Graphics Cards</a>
+        <a href="products.html?category=CPU">Processors</a>
+        <a href="products.html?category=RAM">Memory</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Shipping Info</a>
+        <a href="#">Returns</a>
+        <a href="#">Build Advice</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 CoreForge. All rights reserved.</p>
+      <p>Built for better computing.</p>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
