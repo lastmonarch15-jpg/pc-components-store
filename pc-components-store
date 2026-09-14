@@ -1,0 +1,16 @@
+pc-components-store/
+│
+├── index.html
+├── products.html
+├── cart.html
+├── product-details.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── products.js
+│   └── app.js
+│
+└── images/
+    └── (product images will go here)
